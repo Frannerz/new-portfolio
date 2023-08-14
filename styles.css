@@ -1,0 +1,52 @@
+html{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    
+}
+nav{
+    position:fixed;
+    background-color: #fbf8de;
+    width: 100%;
+    text-align: right;
+    margin-right: 50px;
+    border-bottom: solid black 1px;
+    height: 40px;
+    padding-top: 20px;
+}
+
+nav a{
+    margin-right: 30px;
+    font-family: 'Caprasimo', serif;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#home {
+    background-color: #fbf8de;
+}
+
+#about {
+    background-color: #27ae60;
+}
+
+#portfolio {
+    background-color: #e74c3c;
+}
+
+#contact {
+    background-color: #9b59b6;
+}
