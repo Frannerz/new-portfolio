@@ -7,46 +7,210 @@ body {
     margin: 0;
     
 }
-nav{
-    position:fixed;
+nav {
+    z-index: 1;
+    position: fixed;
     background-color: #fbf8de;
     width: 100%;
-    text-align: right;
-    margin-right: 50px;
     border-bottom: solid black 1px;
-    height: 40px;
-    padding-top: 20px;
+    height: 60px; /* Increase the height to make space for the text at the bottom */
+    display: flex; /* Use flex display for vertical alignment */
+    justify-content: flex-end; /* Align items to the right */
+    align-items: flex-end; /* Align items to the bottom */
 }
 
-nav a{
-    margin-right: 30px;
+nav a {
     font-family: 'Caprasimo', serif;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: black;
     font-weight: bold;
-    padding-bottom: 0;
-}
-section {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+    padding: 0 30px; /* Add padding for spacing */
 }
 
+
+/* page1 */
 #home {
     background-color: #fbf8de;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    justify-items: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Caprasimo', serif;
+    font-size: 3rem;
+    margin-top: 100px;
+}
+
+#mainImage{
+    width: 300px;
+}
+#mainImage img {
+    max-width: 100%;
+   border-radius: 20px;
+   border: 1px solid black;
+}
+.paragraph1{
+    text-align: justify; 
+    max-width: 600px;
+    font-size: 1.25rem;
+   
+}
+
+
+/* portfolio page */
+
+#portfolio {
+    background-color: #fbc2ee;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 900;
+    color:black;
+}
+
+p.text:hover{
+    background-color:#fbc2ee;
+}
+
+.portfolio-content {
+    width: 100%;
+    /* Adjust the height to create a gap between rows */
+    height: 400px; /* You can also use a specific height value */
+    display: flex;
+    /* justify-content: space-around;
+    align-content: space-around; */
+    flex-wrap: wrap; 
+    justify-content: center;
+
+}
+
+.portfolio-items {
+    width: 400px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px; /* Add padding for better spacing within items */
+    background-color: #fbf8de;
+    height: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
+.portfolio-items img {
+    max-width: 80%;
+    max-height: 180px;
+}
+
+.text{
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid black;
+    background-color:#ceede0;
+    border-radius: 5px;
+    padding:5px;
+    min-width: 150px;
+    font-size: 1.2rem;
+
+}
+
+.archive{
+    font-family: 'Rampart One', cursive;
+}
+
+.color{
+    font-family: 'Barriecito', cursive;
+}
+
+.travel{
+    font-family: 'Inconsolata', monospace;
+}
+/* about page */
+h2{
+    font-family: 'Caprasimo', serif;
+    font-size: 3rem;
+    margin-top: 70px;
+    text-align: center;
+
+}
+.paragraph2{
+    padding:20px;
+    margin: 30px;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.filmStrip{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.filmStrip img{
+    max-height: 100vh;
+    transform: rotate(10deg);
+    
+    
 }
 
 #about {
-    background-color: #27ae60;
+    background-color: #ceede0;
+    height: 100vh;
+    display: flex;
+    color: black;
+    column-gap: 10px;
+    overflow: hidden;
 }
 
-#portfolio {
-    background-color: #e74c3c;
-}
 
+/* contact page */
 #contact {
-    background-color: #9b59b6;
+    background-color: #c1d8f4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    column-gap: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.contact-items{
+    width: 400px;
+    height: 60px;
+    border: 1px solid black;
+    background-color: #fbf8de;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:5px 20PX;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+.contact-info{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.contact-info p{
+    margin-left: 100px;
+    font-size: 1.3rem;
+    font-family: 'Caprasimo', serif;
+}
+
+.contact-items img {
+    margin-left: 30px;
+    width: 50px;
 }
