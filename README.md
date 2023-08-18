@@ -1,6 +1,6 @@
-#My Updated Portfolio
+# My Updated Portfolio
 
-##Design
+## Design
 I decided to use a simple, retro style for my new portfolio.
 This involved:
 - Selecting a retro font
@@ -9,7 +9,7 @@ This involved:
 
 I initially used a grid layout but it worked better using flex-box (and this also made it easier to edit for responsiveness).
 
-##Javascript
+## Javascript
 Kept JS simple on this site. Wanted to create a 1 page, smooth scrolling site.
 
 This code ensures the HTML document first loads, then selects each of the nav a elements and adds an event listener for each one. It then scrolls 'smoothly' to the correct target section:
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-##Responsiveness
+## Responsiveness
 I started by adding media queries for iPhones. Most of the layouts were kept the same, just made elements smaller and adjusted font size.
 
 Here is an example of responsive view on an iphone:
