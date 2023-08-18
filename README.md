@@ -5,4 +5,4 @@
 ##Responsiveness
 
 
-[Alt="Responsive View"](https://github.com/Frannerz/new-portfolio/tree/main/images/responsive.png)
+[Screenshot of responsive view on iPhone.](/../main/images/responsive.png)
