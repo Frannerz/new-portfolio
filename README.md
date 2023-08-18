@@ -5,4 +5,4 @@
 ##Responsiveness
 
 
-[Screenshot of responsive view on iPhone.](/../main/images/responsive.png)
+[Screenshot of responsive view on iPhone.](/images/responsive.png)
