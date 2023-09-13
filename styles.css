@@ -60,7 +60,7 @@ h1{
 .paragraph1{
     text-align: justify; 
     max-width: 600px;
-    font-size: 1.25rem;
+    font-size: 1.19rem;
    
 }
 
@@ -349,7 +349,7 @@ h2{
 }
 
 /*large phones*/
-@media only screen and (max-width:420px) and
+@media only screen and (max-width:599px) and
 (min-width:321px){
     nav a {
         font-size: 1.2rem;
@@ -482,7 +482,7 @@ h2{
 /* Mozilla/5.0 */
 
 @media only screen and (max-width:900px) and
-(min-width:700px){
+(min-width:600px){
     nav a {
         font-size: 1.2rem;
         padding: 0 10px;
