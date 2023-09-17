@@ -31,7 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
 I started by adding media queries for iPhones. Most of the layouts were kept the same, just made elements smaller and adjusted font size.
 
 Here is an example of responsive view on an iphone:
-[Screenshot of responsive view on iPhone.](/../main/images/responsive.png)
+![Responsive image]<img width="672" alt="responsive" src="https://github.com/Frannerz/new-portfolio/assets/124707247/e48a3f14-cad8-4e89-aefa-5bdf0364e18a">
+
+
 
 The final page needed the most editing due to the large amount of text. I made the following changes:
 - Changed display settings to put image behind text
@@ -40,3 +42,8 @@ The final page needed the most editing due to the large amount of text. I made t
 - Decreased text, margins and padding sizes
 
 After adding media queries for different iPhones, I checked other screen sizes and adjusted accordingly.
+
+## Accessibility 
+- Alt included for all images
+- Effective contrast between text and background
+- Text alongside logos
