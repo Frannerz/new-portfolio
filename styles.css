@@ -194,14 +194,22 @@ h2{
     font-family: 'Caprasimo', serif;
     font-size: 3rem;
     margin-top: 70px;
+    margin-bottom: 10px;
     text-align: center;
-
+    
 }
-.paragraph2{
-    padding:30px;
-    margin: 30px;
+
+h3{
+    margin-bottom: 5px;;
+}
+.paragraph2  {
+    padding-top:0;
+    padding-left: 30px;
+    margin-right: 60px;
+    margin-top: 0;
     text-align: justify;
     font-size: 1.15rem;
+    overflow: scroll;
 }
 
 .filmStrip{
