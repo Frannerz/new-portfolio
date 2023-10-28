@@ -83,40 +83,31 @@ a {
     
 }
 
-
 p.text:hover{
     background-color:#fbc2ee;
 }
 
 .portfolio-content {
-    width: 100%;
-    /* Adjust the height to create a gap between rows */
-    height: 400px; /* You can also use a specific height value */
-    display: flex;
-    /* justify-content: space-around;
-    align-content: space-around; */
-    flex-wrap: wrap; 
-    justify-content: center;
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Add spacing between items */
 }
 
 .portfolio-items {
-    width: 400px;
+    width: 15rem;
+    height: 15rem;
     text-align: center;
     border: 1px solid black;
     border-radius: 20px;
     padding: 20px; /* Add padding for better spacing within items */
     background-color: #fbf8de;
-    height: 250px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top:5px;
-    margin-bottom: 5px;
 }
-
+.img-container{
+    height:50%;
+}
 .portfolio-items img {
     max-width: 80%;
-    max-height: 180px;
+    max-height: 6rem;
 }
 
 .text{
@@ -126,7 +117,7 @@ p.text:hover{
     background-color:#ceede0;
     border-radius: 5px; 
     padding:5px;
-    min-width: 150px;
+    min-width: 12rem;
     font-size: 1.2rem;
 
 }
@@ -142,6 +133,15 @@ p.text:hover{
 .travel{
     font-family: 'Inconsolata', monospace;
 }
+
+.bookster{
+font-family: 'Elsie Swash Caps', serif;
+}
+
+.strange {
+font-family: 'Ewert', serif;
+}
+
 
 
 /* contact page */
