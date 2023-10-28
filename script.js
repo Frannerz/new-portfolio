@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 const portfolio = [
     {
         project: "Bookster",
-        image: "./images/booksterLogo.png",
+        image: "./images/bookbw.png",
         alt: "Bookster Logo",
         siteUrl: "https://fac29a.github.io/fran-and-lucien-API-project/",
         repoUrl: "https://github.com/FAC29A/fran-and-lucien-API-project",
@@ -71,9 +71,10 @@ portfolio.forEach((item) => {
     const portfolioItem = document.createElement('div');
     portfolioItem.innerHTML = `
     <div class="portfolio-items">
-      <div class="img-container">
+      <section class="img-container">
         <img src="${item.image}" alt="${item.alt}">
-      </div>
+      </section>
+      <section>
       <div>
         <a href="${item.siteUrl}" target="_blank">
             <p class="text ${item.textClass}">${item.project}</p>
@@ -85,6 +86,7 @@ portfolio.forEach((item) => {
         </a>
       </div>
     </div>
+    </section>
     `;
     portfolioContent.appendChild(portfolioItem);
 });
