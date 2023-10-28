@@ -256,21 +256,22 @@ h3{
 
 @media (max-width:900px) {
     nav a {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
         padding: 0 8px;
     }
     nav{
-        height:30px;
+        height:3rem;
         justify-content: center;
     }
     h1{
         text-align:center;
-        margin-top: 50px;
-        font-size: 1.5rem;
+        font-size: 2rem;
+        margin-top: 3.2rem;
     }
     .paragraph1{
         font-size: 1rem;
         padding: 10px;
+        overflow: scroll;
     }
     #mainImage{
         width: 100vw;
@@ -284,7 +285,7 @@ h3{
     /* portfolio page */
     h2{
         font-size: 2rem;
-        margin-top: 40px;
+        margin-top: 3.2rem;
     
     }
     .portfolio-content{
@@ -346,10 +347,11 @@ h3{
         
     }
     #about h2{
-        font-size: 1.5rem;
-        margin-top: 0px;
+       
         text-align: center;
         padding: 0px;
+        font-size: 2rem;
+        margin-top: 1.5rem;
     }
     .paragraph2{
         padding:0px 5px 5px 5px;
