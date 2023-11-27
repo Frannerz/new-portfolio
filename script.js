@@ -15,6 +15,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 const portfolio = [
     {
+        project: "ToDoodle",
+        image: "./images/to-do-list.png",
+        alt: "To do list",
+        siteUrl: "https://fac29a.github.io/ToDoodle/",
+        repoUrl: "https://github.com/FAC29A/ToDoodle",
+        textClass: "travel"
+    },
+    {
         project: "Bookster",
         image: "./images/bookbw.png",
         alt: "Bookster Logo",
@@ -46,6 +54,19 @@ const portfolio = [
         repoUrl: "https://github.com/Frannerz/Project-1",
         textClass: "travel"
     },
+
+    {
+        project: "Archive",
+        image: "./images/macbook.png",
+        alt: "Macbook",
+        siteUrl: "https://frannerz.github.io/Portfolio-2023/",
+        repoUrl: "https://github.com/Frannerz/Portfolio-2023",
+        textClass: "archive"
+    }
+
+]
+
+const archiveProjects = [
     {
         project: "Pass the Pigs",
         image: "./images/pigsBlackandWhite.png",
@@ -54,15 +75,6 @@ const portfolio = [
         repoUrl: "https://github.com/Frannerz/game-project",
         textClass: "travel"
     },
-    {
-        project: "Archive",
-        image: "./images/macbook.png",
-        alt: "Macbook",
-        siteUrl: "https://frannerz.github.io/Portfolio-2023/",
-        repoUrl: "https://github.com/Frannerz/Portfolio-2023",
-        textClass: "archive"
-    },
-
 ]
 
 const portfolioContent = document.getElementById('portfolio-content');
